@@ -6,15 +6,15 @@
 #    By: eviscont <eviscont@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/24 21:14:22 by eviscont          #+#    #+#              #
-#    Updated: 2024/11/24 21:14:24 by eviscont         ###   ########.fr        #
+#    Updated: 2024/11/26 16:11:58 by eviscont         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = iter
+NAME = array
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 SRCS = main.cpp
-HDRS = Array.hpp Array.tpp
+HDRS = Array.hpp
 
 all: $(NAME)
 
