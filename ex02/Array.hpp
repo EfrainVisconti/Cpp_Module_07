@@ -6,7 +6,7 @@
 /*   By: eviscont <eviscont@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 21:13:12 by eviscont          #+#    #+#             */
-/*   Updated: 2024/11/26 16:25:26 by eviscont         ###   ########.fr       */
+/*   Updated: 2024/11/26 17:06:43 by eviscont         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,13 +61,12 @@ class Array
 		return this->_size;
 	}
 
-	T	&operator[](unsigned int index)
+	T	&operator[](unsigned int index) const
 	{
 		if (index >= this->_size || index < 0)
 			throw std::out_of_range("Invalid [] index");
 		return this->_array[index];
 	}
 };
-
 
 #endif
